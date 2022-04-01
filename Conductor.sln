@@ -60,8 +60,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0B9F9166-2
 		docs\swagger_import.png = docs\swagger_import.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "converter", "converter", "{E212B3E3-06E0-46D0-9F52-F9A59B5CB9A6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "word-converted", "word-converted", "{E212B3E3-06E0-46D0-9F52-F9A59B5CB9A6}"
 	ProjectSection(SolutionItems) = preProject
+		docs\conductor.docx = docs\conductor.docx
 		docs\convert.bat = docs\convert.bat
 	EndProjectSection
 EndProject
