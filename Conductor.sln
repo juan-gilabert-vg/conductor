@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28922.388
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conductor", "src\Conductor\Conductor.csproj", "{BC743A97-4ACF-4189-96B7-02FD9B140841}"
 EndProject
@@ -25,6 +25,45 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScratchPad", "tests\ScratchPad\ScratchPad.csproj", "{45D807EA-1D48-4356-9BA2-E93C6A791F3C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conductor.Domain.Scripting", "src\Conductor.Domain.Scripting\Conductor.Domain.Scripting.csproj", "{8DD6BFDB-3050-4E99-953F-B4B6B4667199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E0546510-EE54-49F3-ADB5-6026E0B15E61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{46F322E1-EBCC-4756-8705-E72E4032CA7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{71162F34-22D2-465C-9690-BF7F7EF5D77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2226EF47-4533-4073-A271-7651155BF7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D8478546-5CDE-4725-839A-54B3A3B1BDE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0BB5973A-D26B-402A-9B75-DC9043A2FF7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{0DEC62A4-6A61-41F1-B2ED-A1F6CCD9DF53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Docs", "Solution Docs", "{70E49106-0BE7-4C3D-805C-20869A321BF3}"
+	ProjectSection(SolutionItems) = preProject
+		docs\conductor.docx = docs\conductor.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0B9F9166-2C3F-45CD-8963-502B1A8F0853}"
+	ProjectSection(SolutionItems) = preProject
+		docs\api-reference.md = docs\api-reference.md
+		docs\auth.md = docs\auth.md
+		docs\custom-steps.md = docs\custom-steps.md
+		docs\geting-started.md = docs\geting-started.md
+		docs\http-walkthru.md = docs\http-walkthru.md
+		docs\index.md = docs\index.md
+		docs\installation.md = docs\installation.md
+		docs\primitives.md = docs\primitives.md
+		docs\roadmap.md = docs\roadmap.md
+		docs\swagger_browser.png = docs\swagger_browser.png
+		docs\swagger_import.png = docs\swagger_import.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "converter", "converter", "{E212B3E3-06E0-46D0-9F52-F9A59B5CB9A6}"
+	ProjectSection(SolutionItems) = preProject
+		docs\convert.bat = docs\convert.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,9 +108,21 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BC743A97-4ACF-4189-96B7-02FD9B140841} = {0DEC62A4-6A61-41F1-B2ED-A1F6CCD9DF53}
+		{17322103-FD01-472B-A33E-4A955460351B} = {2226EF47-4533-4073-A271-7651155BF7C4}
+		{1010AB76-79FD-42FE-9F59-166323E9BDBD} = {D8478546-5CDE-4725-839A-54B3A3B1BDE9}
+		{C9DA979C-9D97-4D8B-B297-C0DEC68C9490} = {2226EF47-4533-4073-A271-7651155BF7C4}
 		{A6943D05-84F2-4FD3-AACC-C66A418624E2} = {B5BD285A-9A9E-43FB-A603-413582C2AD70}
 		{A291A05D-5140-47EC-BA51-9BD40F4D2512} = {B5BD285A-9A9E-43FB-A603-413582C2AD70}
 		{45D807EA-1D48-4356-9BA2-E93C6A791F3C} = {B5BD285A-9A9E-43FB-A603-413582C2AD70}
+		{8DD6BFDB-3050-4E99-953F-B4B6B4667199} = {D8478546-5CDE-4725-839A-54B3A3B1BDE9}
+		{71162F34-22D2-465C-9690-BF7F7EF5D77D} = {E0546510-EE54-49F3-ADB5-6026E0B15E61}
+		{2226EF47-4533-4073-A271-7651155BF7C4} = {E0546510-EE54-49F3-ADB5-6026E0B15E61}
+		{D8478546-5CDE-4725-839A-54B3A3B1BDE9} = {E0546510-EE54-49F3-ADB5-6026E0B15E61}
+		{0BB5973A-D26B-402A-9B75-DC9043A2FF7F} = {E0546510-EE54-49F3-ADB5-6026E0B15E61}
+		{0DEC62A4-6A61-41F1-B2ED-A1F6CCD9DF53} = {0BB5973A-D26B-402A-9B75-DC9043A2FF7F}
+		{0B9F9166-2C3F-45CD-8963-502B1A8F0853} = {70E49106-0BE7-4C3D-805C-20869A321BF3}
+		{E212B3E3-06E0-46D0-9F52-F9A59B5CB9A6} = {70E49106-0BE7-4C3D-805C-20869A321BF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B88BB9DA-8644-464E-820C-100F799AD7E2}
