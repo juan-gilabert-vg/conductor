@@ -41,9 +41,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{0DEC62A4-6A61-41F1-B2ED-A1F6CCD9DF53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Docs", "Solution Docs", "{70E49106-0BE7-4C3D-805C-20869A321BF3}"
-	ProjectSection(SolutionItems) = preProject
-		docs\conductor.docx = docs\conductor.docx
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0B9F9166-2C3F-45CD-8963-502B1A8F0853}"
 	ProjectSection(SolutionItems) = preProject
@@ -64,6 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "word-converted", "word-conv
 	ProjectSection(SolutionItems) = preProject
 		docs\conductor.docx = docs\conductor.docx
 		docs\convert.bat = docs\convert.bat
+		docs\Workflow Core.docx = docs\Workflow Core.docx
 	EndProjectSection
 EndProject
 Global
